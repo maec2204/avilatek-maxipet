@@ -4,6 +4,7 @@ import Router from 'next/router';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import '../styles.css';
+import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Plantilla Next.js | Avila Tek</title>
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

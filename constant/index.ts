@@ -8,3 +8,19 @@ export const NAV_ITEMS: Array<string> = [
   'Promociones',
   'Nosotros',
 ];
+export const IPSUM_TITLE = 'Lorem ipsum dolor sit amet. ';
+export const CATEGORY_TITLE = 'Una gran variedad de categorías';
+export const FEATURED_PRODUCT_TITLE = 'Productos destacados';
+export const POPULAR_PRODUCT_TITLE = 'Productos populares';
+export const LATEST_PRODUCT_TITLE = 'Últimos productos';
+export const ADD_TITLE = 'Agregar';
+export const PRODUCT_NAME_TITLE = '1st Choice Puppy Chiot';
+export const CATEGORY_ITEMS: Array<string> = [
+  'perros',
+  'gatos',
+  'peces',
+  'roedores',
+  'reptiles',
+  'placeholder',
+];
+export const FIXED_PRICE = '$9.99';

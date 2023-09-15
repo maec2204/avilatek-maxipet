@@ -5,8 +5,12 @@ import { NAV_ITEMS } from '../constant';
 function NavOption() {
   return (
     <>
-      {NAV_ITEMS.map((navItem) => (
-        <Link key={navItem} href={`/${navItem}`} className='text-secondary-600'>
+      {NAV_ITEMS.map((navItem, index) => (
+        <Link
+          key={navItem}
+          href={`${index > 0 ? `/${navItem}` : '/'}`}
+          className='text-secondary-600'
+        >
           {navItem}
         </Link>
       ))}

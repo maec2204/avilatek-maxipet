@@ -33,7 +33,7 @@
 * Se agregaron estilos propios de la aplicación al componente 404
 
 ## 🚀 Despliegue <a name = "deploy"></a>
-<p> El sitio web desplegado se encuenta en el siguiente enlace: <a href="https://avilatek-maxipet-git-master-maec2204.vercel.app">Moises Escudero</a></p>
+<p> El sitio web desplegado se encuenta en el siguiente enlace: <a href="https://avilatek-maxipet-git-master-maec2204.vercel.app">MaxiPet | Vercel</a></p>
 
 
 ## ✍️ Autor <a name = "authors"></a>

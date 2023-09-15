@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import { ImageBannerType } from "../types/ImageBannerType";
+import React from 'react';
+import Image from 'next/image';
+import { ImageBannerType } from '../types/ImageBannerType';
 
 interface ImageBannerProps {
   imageArray: Array<ImageBannerType>;

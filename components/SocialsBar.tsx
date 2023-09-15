@@ -1,9 +1,9 @@
-import React from "react";
-import LocationIcon from "./svg/LocationIcon";
-import FbIcon from "./svg/FbIcon";
-import IgIcon from "./svg/IgIcon";
-import FramerIcon from "./svg/FrameIcon";
-import TwIcon from "./svg/TwIcon";
+import React from 'react';
+import LocationIcon from './svg/LocationIcon';
+import FbIcon from './svg/FbIcon';
+import IgIcon from './svg/IgIcon';
+import FramerIcon from './svg/FrameIcon';
+import TwIcon from './svg/TwIcon';
 
 function SocialsBar() {
   return (

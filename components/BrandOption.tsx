@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import { BEST_BRANDS_DESCRIPTION } from "../constant";
-import BrandImage from "../public/brand_choice.png";
+import React from 'react';
+import Image from 'next/image';
+import { BEST_BRANDS_DESCRIPTION } from '../constant';
+import BrandImage from '../public/brand_choice.png';
 
 function BrandOption() {
   return (

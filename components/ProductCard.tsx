@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import PetProdcut from "../public/pet_product.png";
-import { FIXED_PRICE, PRODUCT_NAME_TITLE } from "../constant";
-import PawIcon from "./svg/PawIcon";
-import AddCartButton from "./AddCartButton";
+import React from 'react';
+import Image from 'next/image';
+import PetProdcut from '../public/pet_product.png';
+import { FIXED_PRICE, PRODUCT_NAME_TITLE } from '../constant';
+import PawIcon from './svg/PawIcon';
+import AddCartButton from './AddCartButton';
 
 function ProductCard() {
   return (

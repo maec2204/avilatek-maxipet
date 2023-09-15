@@ -1,8 +1,8 @@
-import React from "react";
-import MountainIcon from "./svg/MountainIcon";
-import { COPYRIGHT_TITLE } from "../constant";
-import DogHouseIcon from "./svg/DogHouseIcon";
-import TreeIcon from "./svg/TreeIcon";
+import React from 'react';
+import MountainIcon from './svg/MountainIcon';
+import { COPYRIGHT_TITLE } from '../constant';
+import DogHouseIcon from './svg/DogHouseIcon';
+import TreeIcon from './svg/TreeIcon';
 
 function CopyrightBar() {
   return (

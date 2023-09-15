@@ -1,9 +1,9 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { CATEGORY_ITEMS } from "../constant";
-import DogLogo from "../public/dog.png";
-import PawIcon from "./svg/PawIcon";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { CATEGORY_ITEMS } from '../constant';
+import DogLogo from '../public/dog.png';
+import PawIcon from './svg/PawIcon';
 
 function CategoryOption() {
   return (

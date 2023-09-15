@@ -1,6 +1,6 @@
-import React from "react";
-import { SEARCH_PLACEHOLDER } from "../constant";
-import SearchIcon from "./svg/SearchIcon";
+import React from 'react';
+import { SEARCH_PLACEHOLDER } from '../constant';
+import SearchIcon from './svg/SearchIcon';
 
 function SearchBar() {
   return (

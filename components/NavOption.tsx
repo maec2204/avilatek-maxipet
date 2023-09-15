@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { NAV_ITEMS } from "../constant";
+import React from 'react';
+import Link from 'next/link';
+import { NAV_ITEMS } from '../constant';
 
 function NavOption() {
   return (

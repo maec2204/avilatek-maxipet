@@ -1,5 +1,5 @@
-import React from "react";
-import { IPSUM_TITLE } from "../constant";
+import React from 'react';
+import { IPSUM_TITLE } from '../constant';
 
 interface ProductBannerWrapperProps {
   title: string;

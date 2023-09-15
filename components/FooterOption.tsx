@@ -1,7 +1,7 @@
-import React from "react";
-import TwIcon from "./svg/TwIcon";
-import IgIcon from "./svg/IgIcon";
-import FbIcon from "./svg/FbIcon";
+import React from 'react';
+import TwIcon from './svg/TwIcon';
+import IgIcon from './svg/IgIcon';
+import FbIcon from './svg/FbIcon';
 
 interface FooterOptionProps {
   footerOptionArray: Array<string>;
@@ -16,8 +16,8 @@ function FooterOption({ footerOptionArray, iconsGroup }: FooterOptionProps) {
           key={footerOption}
           className={`${
             index > 0
-              ? "text-secondary-500 text-[14px] pb-2 max-w-[240px]"
-              : "text-primary-300 font-semibold text-[18px] pb-4"
+              ? 'text-secondary-500 text-[14px] pb-2 max-w-[240px]'
+              : 'text-primary-300 font-semibold text-[18px] pb-4'
           }
 
           `}

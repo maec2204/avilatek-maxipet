@@ -1,7 +1,7 @@
-import React from "react";
-import NavBar from "./NavBar";
-import CopyrightBar from "./CopyrightBar";
-import FooterBar from "./FooterBar";
+import React from 'react';
+import NavBar from './NavBar';
+import CopyrightBar from './CopyrightBar';
+import FooterBar from './FooterBar';
 
 interface LayoutProps {
   children: React.ReactNode;

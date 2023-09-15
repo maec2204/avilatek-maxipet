@@ -1,6 +1,6 @@
-import React from 'react';
-import SocialsBar from './SocialsBar';
-import SearchNav from './SearchNav';
+import React from "react";
+import SocialsBar from "./SocialsBar";
+import SearchNav from "./SearchNav";
 
 function NavBar() {
   return (

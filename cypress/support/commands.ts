@@ -12,19 +12,19 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+// Cypress.Commands.add("login", (email, password) => { ... })
 //
 //
 // -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
+// Cypress.Commands.add("drag", { prevSubject: "element"}, (subject, options) => { ... })
 //
 //
 // -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+// Cypress.Commands.add("dismiss", { prevSubject: "optional"}, (subject, options) => { ... })
 //
 //
 // -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 //
 // declare global {
 //   namespace Cypress {
@@ -39,8 +39,8 @@
 
 // Prevent TypeScript from reading file as legacy script
 
-import { mount } from 'cypress/react18';
+import { mount } from "cypress/react18";
 
-Cypress.Commands.add<any>('mount', mount);
+Cypress.Commands.add<any>("mount", mount);
 
 export {};

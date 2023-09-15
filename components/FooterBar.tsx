@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   ABOUT_FOOTER_OPTIONS,
   ACCOUNT_FOOTER_OPTIONS,
   ATENTION_FOOTER_OPTIONS,
   INFO_FOOTER_OPTIONS,
-} from '../constant';
-import FooterOption from './FooterOption';
+} from "../constant";
+import FooterOption from "./FooterOption";
 
 function FooterBar() {
   return (

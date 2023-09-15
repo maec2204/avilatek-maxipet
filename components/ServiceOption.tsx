@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import React from 'react';
-import DogLogo from '../public/dog.png';
-import { SERVICE_ITEMS } from '../constant';
+import Image from "next/image";
+import React from "react";
+import DogLogo from "../public/dog.png";
+import { SERVICE_ITEMS } from "../constant";
 
 function ServiceOption() {
   return (

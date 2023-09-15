@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { ImageBannerType } from '../types/ImageBannerType';
+import React, { useState } from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { ImageBannerType } from "../types/ImageBannerType";
 
 interface ImageSliderProps {
   images: Array<ImageBannerType>;
@@ -37,11 +37,11 @@ function ImageSlider({ images }: ImageSliderProps) {
               type="button"
               onClick={() => handleSliderNavigation(index)}
               className={`h-[6px] mx-1 rounded-full max-w-[50px] ${
-                index === current ? 'bg-primary-300' : 'bg-secondary-100'
+                index === current ? "bg-primary-300" : "bg-secondary-100"
               }`}
               style={{ width: `${100 / images.length}%` }}
             >
-              {' '}
+              {" "}
             </button>
           ))}
         </div>

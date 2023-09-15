@@ -1,13 +1,13 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import SearchBar from './SearchBar';
-import MaxiPetLogo from '../public/maxipet-logo.png';
-import LocationIcon from './svg/LocationIcon';
-import PetIcon from './svg/PetIcon';
-import UserIcon from './svg/UserIcon';
-import ShoppingIcon from './svg/ShoppingIcon';
-import NavOption from './NavOption';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SearchBar from "./SearchBar";
+import MaxiPetLogo from "../public/maxipet-logo.png";
+import LocationIcon from "./svg/LocationIcon";
+import PetIcon from "./svg/PetIcon";
+import UserIcon from "./svg/UserIcon";
+import ShoppingIcon from "./svg/ShoppingIcon";
+import NavOption from "./NavOption";
 
 function SearchNav() {
   return (

@@ -1,5 +1,5 @@
-import React from 'react';
-import ShoppingIcon from './svg/ShoppingIcon';
+import React from "react";
+import ShoppingIcon from "./svg/ShoppingIcon";
 
 function AddCartButton() {
   return (

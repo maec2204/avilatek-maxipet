@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://avilatek-maxipet-git-master-maec2204.vercel.app" rel="noopener">
- ![Avila Tek Logo]([https://avilatek.dev/assets/images/logo_white.png](https://github.com/maec2204/avilatek-maxipet/blob/deploy/public/dog.png))</a>
+ <img width=300px height=200px src="https://raw.githubusercontent.com/maec2204/avilatek-maxipet/develop/public/dog.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Prueba Frontend - Avila Tek</h3>

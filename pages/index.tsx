@@ -2,8 +2,10 @@ import React from 'react';
 import SectionWrapper from '../components/SectionWrapper';
 import ProductBannerWrapper from '../components/ProductBannerWrapper';
 import {
+  BEST_BRANDS_TITLE,
   CATEGORY_TITLE,
   FEATURED_PRODUCT_TITLE,
+  OUR_SERVICES_TITLE,
   POPULAR_PRODUCT_TITLE,
 } from '../constant';
 import CategoryOption from '../components/CategoryOption';
@@ -17,6 +19,8 @@ import ImageBanner from '../components/ImageBanner';
 import { ImageBannerType } from '../types/ImageBannerType';
 import ImageSlider from '../components/ImageSlider';
 import SliderImage from '../public/slider_image.png';
+import ServiceOption from '../components/ServiceOption';
+import BrandOption from '../components/BrandOption';
 
 const SliderOptions: Array<ImageBannerType> = [
   { image: SliderImage, alt: 'first-slider' },
@@ -59,6 +63,12 @@ function HomePage() {
             image={FirstProductBanner}
             reverse
           />
+        </ProductBannerWrapper>
+        <ProductBannerWrapper title={OUR_SERVICES_TITLE}>
+          <ServiceOption />
+        </ProductBannerWrapper>
+        <ProductBannerWrapper title={BEST_BRANDS_TITLE}>
+          <BrandOption />
         </ProductBannerWrapper>
       </SectionWrapper>
     </div>

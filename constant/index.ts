@@ -24,3 +24,18 @@ export const CATEGORY_ITEMS: Array<string> = [
   'placeholder',
 ];
 export const FIXED_PRICE = '$9.99';
+
+export const OUR_SERVICES_TITLE = 'Nuestros servicios';
+
+export const SERVICE_ITEMS: Array<string> = [
+  'peluquería',
+  'odontología',
+  'veterinario',
+  'entrenamiento',
+  'psicología canina',
+  'fiestas de cumpleaños',
+];
+
+export const BEST_BRANDS_TITLE = 'Trabajamos con las mejores marcas';
+export const BEST_BRANDS_DESCRIPTION =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.';

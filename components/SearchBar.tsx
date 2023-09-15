@@ -13,7 +13,7 @@ function SearchBar() {
       border-secondary-200
       focus:outline-none focus:ring-secondary-200
       focus:border-secondary-200 focus:shadow-outline
-        outline-none px-4 py-2 w-[320px]
+        outline-none px-4 py-2  w-[320px]
         h-[33px] placeholder:text-secondary-200
         placeholder:text-sm placeholder:font-light'
       />

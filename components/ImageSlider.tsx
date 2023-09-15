@@ -36,7 +36,7 @@ function ImageSlider({ images }: ImageSliderProps) {
               key={index}
               type='button'
               onClick={() => handleSliderNavigation(index)}
-              className={`h-[6px] mx-1 rounded-full ${
+              className={`h-[6px] mx-1 rounded-full max-w-[50px] ${
                 index === current ? 'bg-primary-300' : 'bg-secondary-100'
               }`}
               style={{ width: `${100 / images.length}%` }}

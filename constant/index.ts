@@ -39,3 +39,5 @@ export const SERVICE_ITEMS: Array<string> = [
 export const BEST_BRANDS_TITLE = 'Trabajamos con las mejores marcas';
 export const BEST_BRANDS_DESCRIPTION =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.';
+export const COPYRIGHT_TITLE =
+  'Copyright © 2021 Maxi Pet. Todos los Derechos Reservados. Desarrollado por Avila Tek ';

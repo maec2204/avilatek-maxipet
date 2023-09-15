@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import CopyrightBar from './CopyrightBar';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,7 +11,9 @@ function Layout({ children }: LayoutProps) {
     <div className='flex flex-col h-screen overflow-x-hidden'>
       <NavBar />
       <main className='flex-grow'>{children}</main>
-      <footer>Footer</footer>
+      <footer>
+        <CopyrightBar />
+      </footer>
     </div>
   );
 }

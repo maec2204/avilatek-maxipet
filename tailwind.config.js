@@ -36,6 +36,7 @@ module.exports = {
         },
         background: {
           100: '#FFFEFE',
+          200: '#FCFCFC',
         },
         neutral: {
           600: '#5F5F5F',

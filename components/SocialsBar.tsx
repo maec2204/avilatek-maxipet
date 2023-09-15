@@ -11,15 +11,15 @@ function SocialsBar() {
       className="bg-[#E2081E] h-auto text-lg md:text-xl
     flex justify-end items-center gap-3 text-white px-10 md:px-20"
     >
-      <div className="flex justify-center items-center  ">
+      <div className="flex justify-center items-center cursor-pointer">
         <LocationIcon className="h-[14px] w-[14px]" />
         <h4 className="font-medium text-[12px]">Bello monte</h4>
         <FramerIcon className="w-[10px] h-[10px]" />
       </div>
 
-      <TwIcon className="w-[16.372px] h-[13px]" />
-      <IgIcon className="w-[13.098px] h-[13px]" />
-      <FbIcon className="w-[7.335px] h-[13px]" />
+      <TwIcon className="w-[16.372px] h-[13px] cursor-pointer" />
+      <IgIcon className="w-[13.098px] h-[13px] cursor-pointer" />
+      <FbIcon className="w-[7.335px] h-[13px] cursor-pointer" />
     </div>
   );
 }

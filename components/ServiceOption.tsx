@@ -9,7 +9,7 @@ function ServiceOption() {
       {SERVICE_ITEMS.map((service, index) => (
         <div
           key={`service-${index}`}
-          className="flex flex-col justify-center items-start"
+          className="flex flex-col justify-center items-start cursor-pointer"
         >
           <Image
             src={DogLogo}

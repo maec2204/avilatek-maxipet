@@ -27,10 +27,10 @@ function SearchNav() {
         <SearchBar />
 
         <div className="flex justify-center items-center gap-3 w-[169.464px]">
-          <LocationIcon className="w-[16px] h-[16px] text-primary-600" />
-          <PetIcon className="w-[16px] h-[16px]" />
-          <UserIcon className="w-[16px] h-[16px]" />
-          <ShoppingIcon className="w-[16px] h-[16px]" />
+          <LocationIcon className="w-[16px] h-[16px] cursor-pointer text-primary-600" />
+          <PetIcon className="w-[16px] h-[16px] cursor-pointer" />
+          <UserIcon className="w-[16px] h-[16px] cursor-pointer" />
+          <ShoppingIcon className="w-[16px] h-[16px] cursor-pointer" />
         </div>
       </div>
       <div className="flex justify-evenly items-center">

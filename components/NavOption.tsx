@@ -9,7 +9,7 @@ function NavOption() {
         <Link
           key={navItem}
           href={`${index > 0 ? `/${navItem}` : '/'}`}
-          className='text-secondary-600'
+          className="text-secondary-600"
         >
           {navItem}
         </Link>

@@ -1,72 +1,43 @@
-# Avila Tek Next.js Template!
+<p align="center">
+  <a href="https://avilatek-maxipet-git-master-maec2204.vercel.app" rel="noopener">
+ ![Avila Tek Logo]([https://avilatek.dev/assets/images/logo_white.png](https://github.com/maec2204/avilatek-maxipet/blob/deploy/public/dog.png))</a>
+</p>
 
-![Avila Tek Logo](https://avilatek.dev/assets/images/logo_white.png)
+<h3 align="center">Prueba Frontend - Avila Tek</h3>
 
-Este repositorio es una plantilla para los Landing Page de Avila Tek, esta configurado para clonarlo, instalar las dependencias y empezar a trabajar, en caso de que estes buscando un template para un proyecto [full stack](https://github.com/Avila-Tek/full-stack-template) puedes referirte a este [repositorio](https://github.com/Avila-Tek/full-stack-template).
+<div align="center">
 
-En [Avila Tek](https://avilatek.dev) estamos comprometido con el Open Source, ya que nuestra compañía ha crecido alrededor de esta gran comunidad y a traves de pequeños proyectos, estamos tratado de volver lo que esta comunidad nos ha dado.
 
-## Contenido
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-3.3.1-blue.svg)]()
+[![React](https://img.shields.io/badge/React-blue.svg)]()
+[![Dependencias](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](#consideration)
 
-Este proyecto ha incluido y configurado las siguientes dependencias:
+</div>
 
-1. [Next.js](https://nextjs.org/)
-2. [Tailwind css](https://tailwindcss.com/)
-3. [Eslint](https://eslint.org/)
-4. [Typescript](https://typescriptlang.org/)
-5. [NProgress](https://ricostacruz.com/nprogress/)
-6. [Sentry](https://sentry.io/)
+---
 
-## Como usarlo
+<p align="center"> Este repositorio contiene la solución a una prueba Frontend propuesta por Avilatek. La prueba requería replicar una maqueta de Figma haciendo uso de la plantilla de Avila Tek, destacando el uso de TailwindCSS, Next.JS y TypeScript para su elaboración.
+    <br>
+</p>
 
-Por primero es clonar este repositorio
+## 📝 Tabla de contenido
 
-```bash
-git clone https://github.com/Avila-Tek/next-template.git <folder_name>
-```
+- [Consideraciones](#consideration)
+- [Uso del frontend](#deploy)
+- [Autor](#authors)
 
-En donde se debe cambiar `<folder_name>` por el nombre de la carpeta a utilizar. Después git debe eliminarse la carpeta `.git` de este repositorio e iniciar un nuevo proyecto de git al cual le añadirás el correspondiente remoto. Para ello deberás hacer lo siguiente:
+## ✔️ Consideraciones <a name = "consideration"></a>
 
-```bash
-cd <folder_name>
-rm -rf .git/
-git init
-```
+* No se encontró diseño móvil en Figma para el desarrollo responsive.
 
-Una vez configurado git deberás instalar las dependencias e iniciar el servidor de desarrollo, para ellos deberás hacer
+* Se agregaron estilos propios de la aplicación al componente 404
 
-```bash
-npm install
-npm run dev
-```
+## 🚀 Despliegue <a name = "deploy"></a>
+<p> El sitio web desplegado se encuenta en el siguiente enlace: <a href="https://avilatek-maxipet-git-master-maec2204.vercel.app">Moises Escudero</a></p>
 
-Luego abre tu navegador en [http://localhost:7777](http://localhost:7777) para ver el resultado
 
-### Configurar Sentry
+## ✍️ Autor <a name = "authors"></a>
 
-Para configurar Sentry comunicate con el Lead Engineer para que te facilite los token de sentry y como referencia puedes leer el ejemplo de [next.js](https://github.com/vercel/next.js/tree/canary/examples/with-sentry)
-
-## Changelog
-
-Puedes revisar el changelog [aquí](/CHANGELOG.md)
-
-## Licencia
-
-Este proyecto se encuentra bajo la licencia de MIT
-
-## Saber mas
-
-Para conocer mas sobre Next.js, puedes observar los siguientes links:
-
-- [Documentación de Next.js](https://nextjs.org/docs) - aprende sobre los features y la API de Next.js.
-- [Aprende Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
-
-## Deploy en Vercel
-
-La forma mas sencilla de hacer deploy de una app de next.js es en [Vercel](https://vercel.com/).
-
-Revisa la [documentation de despliegues de Next.js](https://nextjs.org/docs/deployment) para conocer mas.
-
-## Autores
-
-1. [Jose R. Quevedo](https://github.com/zoomelectrico)
+<p> Soy <b>Moisés Escudero</b>, ingeniero informático con 3 años de experiencia en el desarrollo fullstack. Me gusta trabajar con tecnologías como React, Tailwind CSS, TypeScript, Next.Js, GraphQL y Python. Actualmente busco oportunidades para seguir creciendo y aportando mis habilidades a proyectos desafiantes. </p>
+<p> Puedes encontrar más información sobre mi experiencia y proyectos en mi perfil de LinkedIn: <a href="https://www.linkedin.com/in/moisesescudero/">Moises Escudero</a></p>
+ <br>

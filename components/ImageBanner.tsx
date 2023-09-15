@@ -8,13 +8,13 @@ interface ImageBannerProps {
 
 function ImageBanner({ imageArray }: ImageBannerProps) {
   return (
-    <div className='flex justify-stretch items-stretch py-14'>
+    <div className="flex justify-stretch items-stretch py-14">
       {imageArray.map((image) => (
         <Image
           key={image.alt}
           src={image.image}
           alt={image.alt}
-          className='w-full'
+          className="w-full"
         />
       ))}
     </div>

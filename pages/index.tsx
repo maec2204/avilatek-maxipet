@@ -40,7 +40,7 @@ const SecondImageBannerOptions: Array<ImageBannerType> = [
 
 function HomePage() {
   return (
-    <div className='min-h-screen w-screen bg-white flex flex-col dark:bg-black'>
+    <div className="min-h-screen w-screen bg-white flex flex-col dark:bg-black">
       <ImageSlider images={SliderOptions} />
       <SectionWrapper>
         <ProductBannerWrapper title={CATEGORY_TITLE}>
@@ -48,7 +48,7 @@ function HomePage() {
         </ProductBannerWrapper>
         <ProductBannerWrapper title={FEATURED_PRODUCT_TITLE}>
           <ProductCardBanner
-            altImage='first-product-banner'
+            altImage="first-product-banner"
             image={FirstProductBanner}
           />
         </ProductBannerWrapper>
@@ -59,7 +59,7 @@ function HomePage() {
         <ImageBanner imageArray={SecondImageBannerOptions} />
         <ProductBannerWrapper title={FEATURED_PRODUCT_TITLE}>
           <ProductCardBanner
-            altImage='first-product-banner'
+            altImage="first-product-banner"
             image={FirstProductBanner}
             reverse
           />

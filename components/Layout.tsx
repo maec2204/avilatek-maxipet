@@ -8,9 +8,9 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <div className='flex flex-col h-screen overflow-x-hidden'>
+    <div className="flex flex-col h-screen overflow-x-hidden">
       <NavBar />
-      <main className='flex-grow'>{children}</main>
+      <main className="flex-grow">{children}</main>
       <footer>
         <CopyrightBar />
       </footer>

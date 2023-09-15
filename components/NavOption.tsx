@@ -6,7 +6,7 @@ function NavOption() {
   return (
     <>
       {NAV_ITEMS.map((navItem) => (
-        <Link key={navItem} href={`/${navItem}`} className='text-secondary-600'>
+        <Link key={navItem} href={`/${navItem}`} className="text-secondary-600">
           {navItem}
         </Link>
       ))}

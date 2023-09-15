@@ -5,7 +5,7 @@ interface SectionWrapperProps {
 }
 
 function SectionWrapper({ children }: SectionWrapperProps) {
-  return <div className='px-36 w-full h-full'>{children}</div>;
+  return <div className="px-36 w-full h-full">{children}</div>;
 }
 
 export default SectionWrapper;
